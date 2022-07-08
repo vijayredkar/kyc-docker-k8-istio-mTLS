@@ -188,7 +188,7 @@ public class KycAggregateService {
 		    	try
 			    {
 			    	//String url  = "http://127.0.0.1:8080/credit-check/basic";	
-			    	String url  = "http://kyc-credit-check-basic.foo:8080/credit-check/basic";
+			    	String url  = "http://kyc-credit-check-basic.basic:8080/credit-check/basic";
 			    	System.out.println("##### vijay url "+url);
 			    	
 			    	kycResponse = invokeService(kycReq, url);
@@ -296,7 +296,7 @@ public class KycAggregateService {
 		    	try
 			    {
 			    	//String url  = "http://127.0.0.1:8080/credit-check/advanced";    //works - Istio invocation
-		    		String url  = "http://kyc-credit-check-advanced.bar:8080/credit-check/advanced"; //works - Istio invocation - preferred
+		    		String url  = "http://kyc-credit-check-advanced.advanced:8080/credit-check/advanced"; //works - Istio invocation - preferred
 			    		
 			    	System.out.println("##### vijay url "+url);
 			    	
